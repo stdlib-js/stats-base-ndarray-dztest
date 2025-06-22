@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
 -   [`dbbc745`](https://github.com/stdlib-js/stdlib/commit/dbbc745758e55bb844d108f00ec32e6a8d00fe6f) - **temp:** add console statement for debugging on CI _(by Athan Reines)_
 -   [`ebadfbe`](https://github.com/stdlib-js/stdlib/commit/ebadfbe7f687e77451d86a59dc04ed4548c58f3b) - **docs:** fix comment _(by Athan Reines)_
 -   [`9d20bab`](https://github.com/stdlib-js/stdlib/commit/9d20bab16570b7a6716b393308d267c550dbf090) - **test:** ensure simulated stdev matches \"known\" stdev _(by Athan Reines)_
