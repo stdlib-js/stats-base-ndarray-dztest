@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a965f03`](https://github.com/stdlib-js/stdlib/commit/a965f0341c1f83ce76767e90f68ef89b3b6e3ee6) - **docs:** provide missing options _(by Athan Reines)_
 -   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
 -   [`dbbc745`](https://github.com/stdlib-js/stdlib/commit/dbbc745758e55bb844d108f00ec32e6a8d00fe6f) - **temp:** add console statement for debugging on CI _(by Athan Reines)_
 -   [`ebadfbe`](https://github.com/stdlib-js/stdlib/commit/ebadfbe7f687e77451d86a59dc04ed4548c58f3b) - **docs:** fix comment _(by Athan Reines)_
