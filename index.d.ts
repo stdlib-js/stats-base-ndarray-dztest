@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,19 +16,11 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var numelDimension = require( '@stdlib/ndarray-base-numel-dimension' );
-var getStride = require( '@stdlib/ndarray-base-stride' );
-var getOffset = require( '@stdlib/ndarray-base-offset' );
-var getData = require( '@stdlib/ndarray-base-data-buffer' );
-var ndarraylike2scalar = require( '@stdlib/ndarray-base-ndarraylike2scalar' );
-var strided = require( '@stdlib/stats-strided-dztest' ).ndarray;
-
-
-// MAIN //
+import { float64ndarray, ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Computes a one-sample Z-test for a one-dimensional double-precision floating-point ndarray.
@@ -44,8 +36,8 @@ var strided = require( '@stdlib/stats-strided-dztest' ).ndarray;
 *     -   a zero-dimensional ndarray specifying the mean under the null hypothesis.
 *     -   a zero-dimensional ndarray specifying the known standard deviation.
 *
-* @param {ArrayLikeObject<Object>} arrays - array-like object containing ndarrays
-* @returns {ndarrayLike} output ndarray
+* @param arrays - array-like object containing ndarrays
+* @returns output ndarray
 *
 * @example
 * var Float64Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
@@ -87,28 +79,9 @@ var strided = require( '@stdlib/stats-strided-dztest' ).ndarray;
 *
 * console.log( v.get().toString() );
 */
-function dztest( arrays ) {
-	var alpha;
-	var sigma;
-	var alt;
-	var mu;
-	var x;
-	var y;
-
-	x = arrays[ 0 ];
-	y = ndarraylike2scalar( arrays[ 1 ] );
-
-	alt = ndarraylike2scalar( arrays[ 2 ] );
-	alpha = ndarraylike2scalar( arrays[ 3 ] );
-	mu = ndarraylike2scalar( arrays[ 4 ] );
-	sigma = ndarraylike2scalar( arrays[ 5 ] );
-
-	strided( numelDimension( x, 0 ), alt, alpha, mu, sigma, getData( x ), getStride( x, 0 ), getOffset( x ), y ); // eslint-disable-line max-len
-
-	return y;
-}
+declare function dztest<T extends ndarray>( arrays: [ float64ndarray, T, float64ndarray, float64ndarray, float64ndarray, float64ndarray ] ): T;
 
 
 // EXPORTS //
 
-module.exports = dztest;
+export = dztest;
