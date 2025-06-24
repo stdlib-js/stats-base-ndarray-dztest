@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`81b7bd5`](https://github.com/stdlib-js/stdlib/commit/81b7bd579b25a9094a6010a8d6f1b262b53ff0c7) - **refactor:** use base ndarray utility _(by Athan Reines)_
 -   [`a965f03`](https://github.com/stdlib-js/stdlib/commit/a965f0341c1f83ce76767e90f68ef89b3b6e3ee6) - **docs:** provide missing options _(by Athan Reines)_
 -   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
 -   [`dbbc745`](https://github.com/stdlib-js/stdlib/commit/dbbc745758e55bb844d108f00ec32e6a8d00fe6f) - **temp:** add console statement for debugging on CI _(by Athan Reines)_
