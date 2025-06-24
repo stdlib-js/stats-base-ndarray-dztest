@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - ensure support for minimal ndarray-like objects
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
 -   [`81b7bd5`](https://github.com/stdlib-js/stdlib/commit/81b7bd579b25a9094a6010a8d6f1b262b53ff0c7) - **refactor:** use base ndarray utility _(by Athan Reines)_
 -   [`a965f03`](https://github.com/stdlib-js/stdlib/commit/a965f0341c1f83ce76767e90f68ef89b3b6e3ee6) - **docs:** provide missing options _(by Athan Reines)_
 -   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
