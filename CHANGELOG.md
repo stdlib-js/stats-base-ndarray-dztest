@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2025-12-28)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest`
 -   [`d2abe65`](https://github.com/stdlib-js/stdlib/commit/d2abe65f9dbe8b728f088e5635e096edc232fea8) - use correct return value
 -   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - ensure support for minimal ndarray-like objects
 
@@ -43,6 +44,7 @@
 
 <details>
 
+-   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - **fix:** use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest` _(by Philipp Burckhardt)_
 -   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
 -   [`e4701e8`](https://github.com/stdlib-js/stdlib/commit/e4701e814ce9db206690ad9f2ce8b84e5a4f4e52) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`d2abe65`](https://github.com/stdlib-js/stdlib/commit/d2abe65f9dbe8b728f088e5635e096edc232fea8) - **fix:** use correct return value _(by Athan Reines)_
